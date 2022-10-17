@@ -4,13 +4,16 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1> Hello</h1>
-        <h2>
-          {" "}
-          <Weather />{" "}
-        </h2>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <h1> Hello</h1>
+          <button class="btn btn-primary">Hello</button>
+          <h2>
+            {" "}
+            <Weather />{" "}
+          </h2>
+        </header>
+      </div>
     </div>
   );
 }
