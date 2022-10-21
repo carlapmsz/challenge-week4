@@ -14,6 +14,20 @@ function App() {
           </h2>
         </header>
       </div>
+      <footer>
+        Coded by{" "}
+        <a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">
+          SheCodes
+        </a>{" "}
+        and open-source on{" "}
+        <a
+          href="https://github.com/carlapmsz/challenge-week4"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+      </footer>
     </div>
   );
 }
